@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="./table.css">
+
+</head>
+<body>
+    <table border="2">
+    
+            <tr>
+                <td rowspan="2"> <img class="imagem" src="./img/sorriso.jpg" alt="sorriso"></td>
+
+                <td class="id_titulo" colspan="3">
+                    <span class="nome">Sara Cristina Brasileiro sales </span> <br>Estudante de computação
+                </td>
+            </tr>
+            <tr><td>UUEPA</td><td>AOBA</td></tr>
+            
+        </table>
+
+
+</body>
+</html>
+
+
+CSS
+
+
+.table{
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.tr{
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid black;
+}
+.imagem{
+    height: 30vh;
+    width: 20vw;
+    
+}
