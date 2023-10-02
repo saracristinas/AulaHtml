@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoje é um novo dia</title>
+    <link rel="stylesheet" href="./Jesusbaum.css">
+</head>
+
+<body class="body">
+    <h1 class="Titulo">Cold<span class="letra">Play</span></h1>
+
+    <div class="batata">
+        <figure>
+            <img id="fotobundia" src="./img/Coriplay.png" alt="banda Preferida">
+        </figure>
+
+        <p> Vamos conversar sobre <span class="paragrafo">Coldplay</span></p>
+    </div>
+    <div>
+        <p class="historia">
+            <a href="https://www.coldplay.com/">Coldplay</a>
+            é uma banda britânica de rock fundada em 1996 na Inglaterra pelo vocalista e pianista Chris Martin
+            e o guitarrista Jonny Buckland <br> no University College London. Depois de formar o Pectoralz, Guy Berryman
+            se
+            juntou ao grupo como baixista e eles mudaram o nome para Starfish.
+
+        <p class="historia"> Os membros do Coldplay se conheceram na Universidade de Londres em 1996. Os primeiros membros da banda foram
+            o cantor e pianista Chris Martin e o guitarrista Jonny Buckland, e a banda <br>se chamava Pectoralz. O segundo
+            nome da banda era Starfish, depois que Guy Berryman se juntou à banda como baixista.</p>
+
+        </p>
+
+    </div>
+</body>
+
+</html>
+
+
+
+
+CSS///
+
+.Titulo{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.letra{
+    color: blueviolet;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.batata{
+    text-align: center;
+}
+
+#fotobundia{
+    height: 50%;/*Altura*/
+    width: 50%;/*Cumprimento/largura*/  
+}
+
+.body{
+background-color: rgb(221, 200, 184);
+height: 100%;
+width: 100%;
+}
+
+.paragrafo{
+    color: red;
+    text-align: center;
+}
+
+.historia{
+    text-align: center;
+}
